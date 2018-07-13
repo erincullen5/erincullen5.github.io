@@ -1,6 +1,63 @@
-.box{
-    height: 400px;
-    padding: 20px;
-    color: white;
-    background: lightgray
+body{
+    background-color: lightgray
 }
+
+.box{
+    padding: 10px;
+    background: white;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;  
+  }
+
+#home_page_img{
+    float: left;
+    width: 400px
+}
+
+#side_img{
+    max-width: 200px;
+    height: 100px;
+}
+
+.img_table{
+    display: inline-block
+}
+
+.navbar li{
+    background-color: white;
+    display: inline-block;
+    padding: 10px;
+}
+#navbar{
+    align-items: right;
+}
+
+
+h1{
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+    font-size: 30px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3{
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+}
+
+.box-right {
+    padding: 30px;
+  }
+
+.image {
+    height:200px;
+    width: 200px
+}
+
+
