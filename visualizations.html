@@ -9,24 +9,107 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <!-- Bring in your OWN style sheet for simple CSS-->
     <link rel="stylesheet" href="style.css">
-
 </head>
+
 <body>
+    <div class="box">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h1>Latitude</h1>
+                </div>
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="data.html">Data</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="visualizations.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations <span class="caret"></span></a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul>
+                                    <li>
+                                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="humid.html">Humidity</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="max_temp.html">Temperature</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            </div>
+        </div>
 
-    <div class="container">
-        <nav class="navbar">
-            <ul>
-                <li> 
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#">Comparisons</a>
-                </li>
-            </ul>
-    </div>
-    <header class="header">
-        <h1>Visualizations</h1>
-    </header>
-
-
+    <div class="box">
+      <!-- Creates the Overall Grid -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"> 
+                    <h2>Visualizations</h2>
+                    <hr>
+                </div>
+            </div>    
+        <!-- Row One -->
+            <div class="row">
     
+                <div class="col-md-6"> <br>
+
+                    <div class="pull-left">
+                    <h3> vs. Max Temperature</h3>
+                    <a href="max_temp.html"><img src="image_1.png" alt="Latitude vs. Max Temperature" width="100%" height="100%"></a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6"> <br>
+
+                    <div class="pull-left">
+                    <h3> vs. Humidity</h3>
+                    <a href="humidity.html"><img src="image_2.png" alt="Latitude vs. Humidity" width="100%" height="100%"></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        <!-- Row Two -->
+            <div class="row">
+
+                <div class="col-md-6"> <br>
+
+                    <div class="pull-left">
+                    <h3> vs. Cloudiness</h3>
+                    <a href="cloudiness.html"><img src="image_3.png" alt="Latitude vs. Cloudiness" width="100%" height="100%"></a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6"> <br>
+
+                    <div class="pull-left">
+                    <h3> vs. Wind Speed</h3>
+                    <a href="wind.html"><img src="image_4.png" alt="Latitude vs. Wind Speed" width="100%" height="100%"></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </body>
+
+</html>

@@ -13,71 +13,87 @@
 
 <body>
         <!-- Header and nav bar-->
-        <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6">
-                        <div class="box">
-                            <div class="page-header">
-                                <h1>Wind Speed v. Lat</h1>
-                                <hr>
-                            </div>
-                        </div>
-                    </div>
-                    <div class = "navbar">
-                        <div class = "col-md-offset-6">
-                            <ul>
-                                <li> 
-                                    <a href="index.html">Home</a>
-                                </li>
-                                <li>
-                                    <a href="visualizations.html">Visualizations</a>
-                                </li>
-                                <li>
-                                    <a href="comparisons.html">Comparisons</a>
-                                </li>
-                                <li>
-                                    <a href="data.html">Data</a>
-                                </li>
+    <div class="box">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                    <h1>Latitude</h1>
+            </div>
+                <nav class="navbar navbar-expand-lg">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="data.html">Data</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="visualizations.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations <span class="caret"></span></a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <ul>
+                                        <li>
+                                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="humid.html">Humidity</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="max_temp.html">Temperature</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
                             </ul>
                         </div>
-                    </div>
+                </nav>
                 </div>
-            <div class = "row">
-                    <div class ="col-sm-12 col-md-8">
-                        <div class="box">
-                        <img src="image_4.png" id="wind" alt="wind v. lat">
-                        <p>
-                                SOME INTERESTING TEXT ABOUT WIND! SOME INTERESTING TEXT ABOUT WIND! SOME INTERESTING TEXT ABOUT WIND! SOME INTERESTING TEXT ABOUT WIND! SOME INTERESTING TEXT ABOUT WIND!
-                        </p>
-                    </div>
-                    </div>
-        <!-- Create the Side Bar  -->
-        <div class="box">
-                <div class ="col-sm-12 col-md-4">
-                    <h2>Visualizations</h2>
-                    <hr>
+            </div>
+        </div>
+</div>
+<div class = "row">
+        <div class ="col-sm-12 col-md-8">
+            <div class="box">
+                <h2>Latitude v.s. Wind</h2>
+                <hr>
+                    <img src="image_4.png" id="wind" alt="wind v. lat">
+                    <p>
+                            SOME INTERESTING TEXT ABOUT WIND! SOME INTERESTING TEXT ABOUT WIND! SOME INTERESTING TEXT ABOUT WIND! SOME INTERESTING TEXT ABOUT WIND! SOME INTERESTING TEXT ABOUT WIND!
+                    </p>
                 </div>
-    
-                <div class="row">
-    
-                    <div class="col-sm-6 col-md-12">
-    
-                        <a href="max_temp.html"><img src="image_1.png" alt="Latitude vs. Max Temperature" height="170" width="170"></a>
-                        <a href="humidity.html"><img src="image_2.png" alt="Latitude vs. Humidity" height="170" width="170" ></a>
-    
-                    </div>
+                </div>
+    <!-- Create the Side Bar  -->
+    <div class="box">
+            <div class ="col-sm-12 col-md-4">
+                <h2>Visualizations</h2>
+                <hr>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-6 col-md-12">
+
+                    <a href="max_temp.html"><img src="image_1.png" alt="Latitude vs. Max Temperature" height="170" width="170"></a>
+                    <a href="humidity.html"><img src="image_2.png" alt="Latitude vs. Humidity" height="170" width="170" ></a>
+
+                </div>
+            
+            </div>            
                 
-                </div>            
-                    
-                <div class="row">
-    
-                    <div class="col-sm-6 col-md-12">
-                        <a href="cloudiness.html"><img src="image_3.png" alt="Latitude vs. Cloudiness" height="170" width="170"></a>
-                        <a href="wind.html"><img src="image_4.png" alt="Latitude vs. Humidity" height="170" width="170"></a>
-                    </div>
-                    
-                </div>    
+            <div class="row">
+
+                <div class="col-sm-6 col-md-12">
+                    <a href="cloudiness.html"><img src="image_3.png" alt="Latitude vs. Cloudiness" height="170" width="170"></a>
+                    <a href="wind.html"><img src="image_4.png" alt="Latitude vs. Humidity" height="170" width="170"></a>
+                </div>
                 
+            </div>    
+            
             </div>
             </div>
     </body>
