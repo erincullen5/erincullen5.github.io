@@ -16,15 +16,6 @@ body{
     width: 400px
 }
 
-#side_img{
-    max-width: 200px;
-    height: 100px;
-}
-
-.img_table{
-    display: inline-block
-}
-
 .navbar li{
     background-color: white;
     display: inline-block;
@@ -43,9 +34,6 @@ h1{
     text-align: left
 }
 
-.logo{
-    color: lightblue
-}
 h2{
     font-size: 30px;
     color: black;
@@ -62,10 +50,6 @@ h3{
     padding: 30px;
   }
 
-.image {
-    height:200px;
-    width: 200px
-}
 p{
     margin-left:10px;
     margin-right: 10px
